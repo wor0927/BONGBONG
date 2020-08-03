@@ -1261,9 +1261,8 @@ ul, li
 @media all and (min-width: 500px) and (max-width: 901px){
 	
 /*---- 서브 소개(공통) ----*/
-	
-	#content {    margin-top: 300px;} 
-	.page-tit {font-family: 'vhs font'; font-size: 80px; text-align: center; margin-top: 250px; margin-bottom: 20px; color: #fff;}
+	#content {    margin-top: 0px;   display: block;} 
+	.page-tit {font-family: 'vhs font'; font-size: 80px; text-align: center; margin-top: 100px; margin-bottom: 20px; color: #fff;}
 	.page-sub {font-size: 24px; text-align: center; margin-top: 20px; margin-bottom: 20px; color: #fff;}
 	
 	
@@ -1276,7 +1275,9 @@ ul, li
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
 	}
+	.callout-title {padding: 170px 0 0 0;}
 	
+
 	#content > .OKJA {
     width: 100%;
  	height: 2100px;
@@ -1988,7 +1989,6 @@ ul, li
 	
 	
 }
-
 
 @media all  and (min-width: 321px) and (max-width: 375px){
 	
